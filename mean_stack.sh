@@ -10,9 +10,6 @@ heroku login
 heroku create
 ssh-keygen -t rsa
 heroku keys:add
-heroku addons:add papertrail
-heroku addons:add mongohq:sandbox
-heroku config | grep "MONGOHQ"
 heroku plugins:install git://github.com/ddollar/heroku-config.git
 
 # Set up heroku configuration variables
