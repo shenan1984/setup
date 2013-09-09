@@ -23,6 +23,7 @@ After setup, **LOGOUT** then **LOGIN**. Then create a new Project install packag
 mkdir $HOME/"Project"; cd "Project"
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@example.com"
+git remote add origin https://github.com/user/repo.git
 git init
 heroku login
 
@@ -37,6 +38,7 @@ git push origin master
 git push heroku master
 heroku config:push
 ```
+Add SSH Key if necessary: https://help.github.com/articles/generating-ssh-keys
 
 Configure MongoHQ from a browser:
 * Add first user.  (Apart from default heroku)
