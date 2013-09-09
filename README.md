@@ -36,7 +36,7 @@ git push heroku master
 heroku config:push
 ```
 
-Mongo add-ons
+Heroku add-ons
 ```sh
 heroku addons:add papertrail
 heroku addons:add mongohq:sandbox
