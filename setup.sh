@@ -1,6 +1,10 @@
 #!/bin/bash
 # Simple setup.sh for configuring Ubuntu 12.04 LTS EC2 instance
 # for headless setup. 
+sudo apt-get update
+
+# Install screen
+sudo apt-get install -y screen
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
