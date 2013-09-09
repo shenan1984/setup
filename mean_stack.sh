@@ -13,6 +13,7 @@ heroku keys:add
 heroku addons:add papertrail
 heroku addons:add mongohq:sandbox
 heroku config | grep "MONGOHQ"
+heroku plugins:install git://github.com/ddollar/heroku-config.git
 
 # Set up heroku configuration variables
 # https://devcenter.heroku.com/articles/config-vars
