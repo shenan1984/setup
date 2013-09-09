@@ -33,6 +33,7 @@ git add .
 git add -f public/lib
 git push origin master
 git push heroku master
+heroku config:push
 ```
 
 Configure MongoHQ from a browser:
