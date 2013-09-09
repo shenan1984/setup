@@ -33,6 +33,7 @@ sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg
 
 # Clone MEAN stack
 git clone https://github.com/linnovate/mean.git
+# sudo apt-get install mongodb-clients
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
