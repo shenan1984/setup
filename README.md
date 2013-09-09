@@ -36,6 +36,13 @@ git push heroku master
 heroku config:push
 ```
 
+Mongo add-ons
+```sh
+heroku addons:add papertrail
+heroku addons:add mongohq:sandbox
+heroku config | grep "MONGOHQ"
+```
+
 Configure MongoHQ from a browser:
 * Add first user.  (Apart from default heroku)
 
