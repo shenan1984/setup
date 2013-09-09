@@ -31,11 +31,6 @@ sudo add-apt-repository -y ppa:cassou/emacs
 sudo apt-get -qq update
 sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg
 
-# Clone MEAN stack
-git clone https://github.com/linnovate/mean.git
-cp setup/mean_stack.sh mean/mean_stack.sh
-# sudo apt-get install mongodb-clients
-
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
@@ -55,4 +50,3 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sb dotfiles/.emacs .
 ln -sf dotfiles/.emacs.d .
-
