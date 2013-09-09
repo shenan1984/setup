@@ -18,7 +18,7 @@ for more details.
 
 
 ## MEAN stack installation notes
-After setup, logout, login -- create new Project install packages, bower, and configure git and heroku
+After setup, **LOGOUT** then **LOGIN**. Then create a new Project install packages, bower, and configure git and heroku.
 ```sh
 mkdir $HOME/"Project"; cd "Project"
 git config --global user.name "Your Name Here"
