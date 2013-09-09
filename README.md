@@ -20,7 +20,7 @@ for more details.
 ## MEAN stack installation notes
 After setup, logout, login -- install packages, bower, and configure heroku
 ```sh
-bash ./setup/mean_stack.sh
+bash ./mean/mean_stack.sh
 ```
 
 Configure git
