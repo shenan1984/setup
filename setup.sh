@@ -32,7 +32,7 @@ sudo apt-get -qq update
 sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg
 
 # Clone MEAN stack
-git clone https://github.com/shenan1984/mean.git
+git clone https://github.com/linnovate/mean.git
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
