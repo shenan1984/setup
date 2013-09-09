@@ -1,4 +1,7 @@
 #!/bin/bash
+# Clone MEAN stack
+git pull https://github.com/linnovate/mean.git
+# sudo apt-get install mongodb-clients
 
 # Install packages and bower
 npm install
