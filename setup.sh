@@ -14,8 +14,8 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
-nvm install v0.10.12
-nvm use v0.10.12
+nvm install v0.10.18
+nvm use v0.10.18
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
@@ -30,6 +30,9 @@ sudo apt-get install -y rlwrap
 sudo add-apt-repository -y ppa:cassou/emacs
 sudo apt-get -qq update
 sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg
+
+# Clone MEAN stack
+git clone https://github.com/shenan1984/mean.git
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
