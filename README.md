@@ -18,17 +18,18 @@ for more details.
 
 
 ## MEAN stack installation notes
-After setup, logout, login -- install packages, bower, and configure heroku
+After setup, logout, login -- create new Project install packages, bower, and configure heroku
 ```sh
-bash ./mean/mean_stack.sh
+mkdir $HOME/"Project"; cd "Project"
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@example.com"
+git init
+heroku login
+curl https://raw.github.com/shenan1984/setup/master/mean_stack.sh | sh
 ```
 
 Configure git
 ```sh
-git config --global user.name "Your Name Here"
-git config --global user.email "your_email@example.com"
-git remote rm origin
-git remote add origin git@github.com:Your_Username/New_Project_Name.git
 git add .
 git add -f public/lib
 git push origin master
@@ -36,17 +37,10 @@ git push heroku master
 heroku config:push
 ```
 
-Heroku add-ons
-```sh
-heroku addons:add papertrail
-heroku addons:add mongohq:sandbox
-heroku config | grep "MONGOHQ"
-```
-
 Configure MongoHQ from a browser:
 * Add first user.  (Apart from default heroku)
 
-Then use ``mongodb://<user>:<password>@paulo.mongohq.com:10088/app17590716``:
+Then use ``mongodb:/"<user":"password"@paulo.mongohq.com:10088/"App Name"``:
 * Update MONGOHQ_URL in .env
 * Update line 17 in config/config.js
 
