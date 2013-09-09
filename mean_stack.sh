@@ -14,6 +14,12 @@ heroku addons:add papertrail
 heroku addons:add mongohq:sandbox
 heroku config | grep "MONGOHQ"
 
+# Set up heroku configuration variables
+# https://devcenter.heroku.com/articles/config-vars
+# - Edit .env to include your own COINBASE_API_KEY and HEROKU_POSTGRES_URL.
+# - Modify the .env.dummy file, and DO NOT check .env into the git repository.
+# - See .env.dummy for details.
+cp $HOME/dotfiles/.env.dummy $HOME/mean/.env
 
 # Reminder to set up git
 # STRING=$( cat <<EOF
