@@ -40,7 +40,7 @@ heroku config:push
 Configure MongoHQ from a browser:
 * Add first user.  (Apart from default heroku)
 
-Then use ``mongodb:/"<user":"password"@paulo.mongohq.com:10088/"App Name"``:
+Then use ``mongodb://"user":"password"@paulo.mongohq.com:10088/"App Name"``:
 * Update MONGOHQ_URL in .env
 * Update line 17 in config/config.js
 
