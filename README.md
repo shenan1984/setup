@@ -45,4 +45,4 @@ Configure MongoHQ from a browser:
 
 Then use ``mongodb://<user>:<password>@paulo.mongohq.com:10088/<app_name>``:
 * Update MONGOHQ_URL in .env
-* Update line 17 in config/config.js
+* Update development:{db} in config/config.js
