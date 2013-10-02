@@ -8,6 +8,10 @@ npm install
 npm install -g bower
 bower install
 
+# Install jshint to allow checking of JS code within emacs
+# http://jshint.com/
+npm install -g jshint
+
 # Set up heroku
 heroku create
 ssh-keygen -t rsa
