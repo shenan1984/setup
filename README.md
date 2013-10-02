@@ -23,8 +23,8 @@ After setup, **LOGOUT** then **LOGIN**. Then create a new Project install packag
 mkdir $HOME/"Project"; cd "Project"
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@example.com"
-# git remote add origin https://github.com/user/repo.git
 git init
+git remote add origin https://github.com/"user/repo".git
 heroku login
 
 curl https://raw.github.com/shenan1984/setup/master/mean_stack.sh | sh
