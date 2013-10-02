@@ -17,10 +17,6 @@ source $HOME/.nvm/nvm.sh
 nvm install v0.10.18
 nvm use v0.10.18
 
-# Install jshint to allow checking of JS code within emacs
-# http://jshint.com/
-npm install -g jshint
-
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
