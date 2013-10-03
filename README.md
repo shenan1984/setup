@@ -10,9 +10,6 @@ curl https://raw.github.com/shenan1984/setup/master/setup.sh | sh
 
 # Load nvm and install latest production node
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
-source $HOME/.nvm/nvm.sh
-nvm install v0.10.20
-nvm use v0.10.20
 ```
 
 See also http://github.com/startup-class/dotfiles and
@@ -24,6 +21,12 @@ for more details.
 ## MEAN stack installation notes
 After setup, **LOGOUT** then **LOGIN**. Then create a new Project install packages, bower, and configure git and heroku.
 ```sh
+# Load nvm and install latest production node
+source $HOME/.nvm/nvm.sh
+nvm install v0.10.20
+nvm use v0.10.20
+
+# setup github repo first if needed
 mkdir $HOME/"Project"; cd "Project"
 git config --global user.name "Your Name Here"
 git config --global user.email "your_email@example.com"
