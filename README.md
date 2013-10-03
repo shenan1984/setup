@@ -6,7 +6,7 @@ follows:
 
 ```sh
 cd $HOME
-sudo apt-get install -y git-core
+# sudo apt-get install -y git-core
 # git clone https://github.com/shenan1984/setup.git
 # ./setup/setup.sh
 curl https://raw.github.com/shenan1984/setup/master/setup.sh | sh
