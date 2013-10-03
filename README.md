@@ -6,10 +6,13 @@ follows:
 
 ```sh
 cd $HOME
-# sudo apt-get install -y git-core
-# git clone https://github.com/shenan1984/setup.git
-# ./setup/setup.sh
 curl https://raw.github.com/shenan1984/setup/master/setup.sh | sh
+
+# Load nvm and install latest production node
+curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+source $HOME/.nvm/nvm.sh
+nvm install v0.10.20
+nvm use v0.10.20
 ```
 
 See also http://github.com/startup-class/dotfiles and
