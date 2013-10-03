@@ -7,8 +7,9 @@ follows:
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone https://github.com/shenan1984/setup.git
-./setup/setup.sh   
+# git clone https://github.com/shenan1984/setup.git
+# ./setup/setup.sh
+curl https://raw.github.com/shenan1984/setup/master/setup.sh | sh
 ```
 
 See also http://github.com/startup-class/dotfiles and
